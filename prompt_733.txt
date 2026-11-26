@@ -1,0 +1,543 @@
+<USER_REQUEST>
+STOP.
+
+THIS IS A VISUAL REPLICATION TASK.
+
+DO NOT DESIGN A NEW CONCEPT.
+DO NOT INTERPRET THE REFERENCE.
+DO NOT "IMPROVE" THE REFERENCE INTO YOUR OWN IDEA.
+
+I want you to reproduce the ACTUAL VISUAL EXPERIENCE of this
+specific website:
+
+https://clean-madurai-io.preview.emergentagent.com/
+
+OPEN THIS URL IN YOUR BROWSER AND INSPECT THE RENDERED WEBSITE.
+
+THIS URL IS THE PRIMARY SOURCE OF TRUTH.
+
+============================================================
+CRITICAL REQUIREMENT
+============================================================
+
+I want the Clean Madurai homepage in my existing project to
+look and behave AS CLOSE AS PRACTICALLY POSSIBLE to the
+Emergent reference.
+
+Not merely:
+
+- the same topic
+- the same text
+- the same five stages
+- the same general idea
+
+I mean the actual:
+
+- camera composition
+- number and placement of bins
+- road composition
+- sidewalk composition
+- environmental composition
+- scale of objects
+- perspective
+- typography placement
+- spacing
+- visual hierarchy
+- colors
+- transitions
+- scroll behavior
+- movement
+- scene composition
+
+must follow the reference.
+
+DO NOT replace the reference with your own artistic
+interpretation.
+
+============================================================
+VERY IMPORTANT: MULTIPLE BINS
+============================================================
+
+THE REFERENCE HAS MULTIPLE BINS.
+
+DO NOT CHANGE IT TO ONE HERO BIN.
+
+DO NOT REMOVE THE MULTIPLE-BIN COMPOSITION.
+
+The opening environment should contain MULTIPLE realistic
+wheelie bins arranged along the roadside/sidewalk in the same
+general visual relationship as the Emergent reference.
+
+The bins should be clearly recognizable as bins.
+
+They should NOT be tiny unreadable dots.
+
+They should NOT become one giant hero object.
+
+They should NOT be replaced with cubes.
+
+They should NOT be replaced with primitive cylinders.
+
+USE THE REALISTIC smart_bin.glb ASSET ALREADY IN THIS PROJECT.
+
+Create multiple instances of the realistic bin asset where
+the reference shows multiple bins.
+
+The number, spacing, perspective and placement should visually
+match the reference as closely as possible.
+
+============================================================
+DO NOT REPEAT THE PREVIOUS MISTAKE
+============================================================
+
+The previous Antigravity version failed because it created:
+
+- an empty grey road
+- sparse placeholder environment
+- tiny unreadable bins
+- black/grey primitive structures
+- excessive empty space
+- a different camera composition
+
+That is REJECTED.
+
+Do not merely make those objects smaller or larger.
+
+Rebuild the composition.
+
+============================================================
+REFERENCE COMPOSITION
+============================================================
+
+The opening should be a WIDE ROADWAY ESTABLISHING SHOT.
+
+The viewer sees:
+
+MULTIPLE BINS
++
+SIDEWALK
++
+ROAD
++
+BACKGROUND ENVIRONMENT
++
+TYPOGRAPHY
+
+as ONE designed composition.
+
+The road should create strong perspective.
+
+The bins should form a visually meaningful corridor along
+the roadside.
+
+The environment should have depth.
+
+The camera should NOT be directly beside a bin.
+
+The camera should NOT start inside the bin.
+
+The camera should NOT start with a macro shot.
+
+The camera should NOT zoom immediately into a bin.
+
+The camera should NOT make one bin occupy most of the screen.
+
+============================================================
+DO NOT "MINIMALIZE" THE REFERENCE
+============================================================
+
+Do NOT interpret the reference as:
+
+"simple scene = remove everything."
+
+The reference is visually simple because its composition
+is controlled, NOT because it contains only three objects.
+
+Preserve the visual richness of the reference.
+
+Use:
+
+- realistic road
+- sidewalk
+- curb
+- background buildings/environment
+- vegetation where visible/appropriate
+- realistic shadows
+- realistic materials
+- atmospheric depth
+- multiple bins
+- carefully positioned typography
+
+============================================================
+REAL ASSETS
+============================================================
+
+Use the existing:
+
+smart_bin.glb
+collection_vehicle.glb
+
+and existing realistic environment/PBR assets.
+
+Do NOT substitute placeholder geometry.
+
+If the GLB is not loading:
+
+FIX THE GLB LOADING.
+
+Do not create a fake box as a replacement.
+
+If multiple bins are needed:
+
+INSTANCE OR CLONE THE REALISTIC GLB.
+
+Do not create primitive replacement bins.
+
+============================================================
+CAMERA
+============================================================
+
+The camera composition must match the reference.
+
+DO NOT invent a new cinematic camera sequence.
+
+DO NOT use:
+
+- macro camera
+- product-shot camera
+- extreme close-up
+- giant hero-object perspective
+- giant overhead city perspective
+
+The opening camera should be a wide environmental shot
+with multiple bins visible in the roadway/sidewalk composition.
+
+The road should remain visually important.
+
+The viewer should immediately recognize the same kind of
+composition seen in the Emergent reference.
+
+============================================================
+TYPOGRAPHY
+============================================================
+
+Reproduce the reference's typography hierarchy and placement
+as closely as possible.
+
+Do not move all typography to a generic centered hero.
+
+Do not create giant dashboard cards.
+
+Do not create floating HUD panels.
+
+Do not redesign the typography system.
+
+Match:
+
+- position
+- scale
+- alignment
+- spacing
+- hierarchy
+- color treatment
+- section labels
+- CTA placement
+
+to the reference.
+
+============================================================
+SCROLL INTERACTION
+============================================================
+
+The Emergent visual experience must be converted into
+SCROLL-CONTROLLED INTERACTION.
+
+It must NOT become a video.
+
+It must NOT autoplay.
+
+It must NOT automatically progress through the story.
+
+The user controls the progression with scrolling.
+
+Use:
+
+GSAP
++
+ScrollTrigger
++
+Three.js / React Three Fiber
+
+The hero is pinned while the user scrolls.
+
+Scroll progress controls the visual state.
+
+If the user stops scrolling:
+
+THE SCENE STOPS.
+
+If the user scrolls down:
+
+THE SCENE PROGRESSES.
+
+If the user scrolls up:
+
+THE SCENE REVERSES.
+
+Do NOT add a replay button.
+
+Scrolling upward IS the replay/reverse mechanism.
+
+============================================================
+IMPORTANT:
+REPRODUCE THE ACTUAL EMERGENT SEQUENCE
+============================================================
+
+Do not invent a new seven-frame storyboard.
+
+Do not turn this into:
+
+ONE BIN
+→ SENSOR MACRO
+→ CITY
+→ PARTICLES
+→ MAP
+→ TRUCK.
+
+That is NOT the requested experience.
+
+Instead inspect the actual Emergent reference and reproduce
+the way its existing visual world evolves while scrolling.
+
+The SAME GENERAL ENVIRONMENT should remain recognizable.
+
+The visual states should feel like one continuous designed
+website experience.
+
+============================================================
+DATA VISUALIZATION
+============================================================
+
+Use the same visual language as the Emergent reference.
+
+Do NOT create thousands of particles.
+
+Do NOT create a digital twin.
+
+Do NOT create a giant GIS particle field.
+
+Do NOT create a technical control room.
+
+Use only the amount of data visualization necessary to
+reproduce the reference.
+
+If the reference uses a small number of visual markers,
+use a small number.
+
+If the reference uses a route, draw the route in the same
+visual location and style.
+
+If the reference changes the environment during a transition,
+reproduce that transition rather than inventing another one.
+
+============================================================
+COLLECTION TRUCK
+============================================================
+
+The truck appears as part of the later collection story.
+
+Use:
+
+collection_vehicle.glb
+
+Do not show the truck prominently in the opening if the
+reference does not.
+
+Do not make the truck the hero.
+
+Do not make it enormous.
+
+Do not zoom into it.
+
+Its movement should follow the same visual logic as the
+reference.
+
+============================================================
+VISUAL QUALITY
+============================================================
+
+The final result should feel like a polished creative website.
+
+Prioritize:
+
+1. MATCHING THE REFERENCE
+2. CORRECT COMPOSITION
+3. CORRECT OBJECT PLACEMENT
+4. CORRECT CAMERA
+5. CORRECT TYPOGRAPHY
+6. REALISTIC ASSETS
+7. SMOOTH SCROLL
+8. PERFORMANCE
+
+Do NOT prioritize adding effects.
+
+============================================================
+DO NOT USE THESE
+============================================================
+
+NO:
+
+- digital twin
+- miniature city
+- low-poly city
+- cube buildings
+- cone trees
+- primitive bins
+- giant hero bin
+- macro sensor scene
+- giant particle clouds
+- 3000+ data points
+- holographic city
+- futuristic HUD
+- floating dashboard
+- autoplay
+- video playback
+- replay button
+- completely different scene for every state
+
+============================================================
+EXISTING PROJECT
+============================================================
+
+This is an EXISTING Clean Madurai application.
+
+Do not rebuild the application.
+
+Preserve:
+
+- backend
+- database
+- authentication
+- citizen functionality
+- municipality/admin functionality
+- APIs
+- waste map
+- existing application routes
+
+Only replace/rebuild the homepage visual experience.
+
+You may reuse existing Three.js infrastructure, but the current
+homepage visual composition is NOT authoritative.
+
+The Emergent reference is authoritative.
+
+============================================================
+IMPLEMENTATION METHOD
+============================================================
+
+DO NOT IMPLEMENT EVERYTHING AT ONCE.
+
+FIRST:
+
+Open the Emergent URL in the browser.
+
+Actually inspect the rendered page.
+
+Compare:
+
+REFERENCE
+vs
+CURRENT CLEAN MADURAI HOMEPAGE
+
+Then rebuild ONLY the STATIC FIRST VIEW.
+
+The first implementation milestone must contain:
+
+- correct wide camera
+- correct road perspective
+- correct sidewalk
+- multiple realistic bins
+- realistic environment
+- correct object scale
+- correct typography
+- correct colors
+- correct visual hierarchy
+
+NO SCROLL ANIMATION YET.
+
+NO DEMAND ANIMATION YET.
+
+NO ROUTE ANIMATION YET.
+
+NO TRUCK ANIMATION YET.
+
+I want the first static frame to visually resemble the
+Emergent reference BEFORE animation is added.
+
+After that static frame is working, STOP.
+
+============================================================
+ABSOLUTE QUALITY CHECK
+============================================================
+
+Before proceeding, compare the static frame against the
+Emergent reference.
+
+Ask:
+
+1. Are there multiple bins?
+2. Are they arranged like the reference?
+3. Is the camera wide like the reference?
+4. Is the road composition similar?
+5. Is the sidewalk composition similar?
+6. Is the environment rich enough?
+7. Are the bins recognizable?
+8. Is the scale correct?
+9. Is the typography positioned similarly?
+10. Does the page immediately feel like the same visual
+    experience?
+
+If ANY answer is NO:
+
+DO NOT proceed.
+
+Fix the static composition first.
+
+============================================================
+FINAL RULE
+============================================================
+
+I do NOT want your interpretation of the Emergent website.
+
+I want you to REPRODUCE ITS VISUAL LANGUAGE AND COMPOSITION
+as closely as possible inside my Clean Madurai application.
+
+REFERENCE FIRST.
+CODE SECOND.
+
+Do not change the concept.
+
+Do not simplify the concept.
+
+Do not invent a new concept.
+
+Do not return to the old Antigravity concept.
+
+START BY INSPECTING THE REFERENCE AND BUILDING ONLY THE
+STATIC OPENING COMPOSITION.
+
+STOP AFTER THAT.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-09-30T13:37:19+05:30.
+
+The user's current state is as follows:
+Active Document: c:\Users\ELCOT\OneDrive\Desktop\kupathoti\frontend\src\components\experience\HeroExperience.tsx (LANGUAGE_TSX)
+Cursor is on line: 127
+Other open documents:
+- c:\Users\ELCOT\OneDrive\Desktop\kupathoti\frontend\src\components\experience\world\CityIntelligenceField.tsx (LANGUAGE_TSX)
+- c:\Users\ELCOT\OneDrive\Desktop\kupathoti\frontend\src\components\experience\world\SmartBin.tsx (LANGUAGE_TSX)
+- c:\Users\ELCOT\OneDrive\Desktop\kupathoti\frontend\src\components\experience\world\CollectionVehicle.tsx (LANGUAGE_TSX)
+- c:\Users\ELCOT\OneDrive\Desktop\kupathoti\frontend\src\components\experience\world\RoadCollectionRoute.tsx (LANGUAGE_TSX)
+- c:\Users\ELCOT\OneDrive\Desktop\kupathoti\frontend\src\components\experience\HeroCanvas.tsx (LANGUAGE_TSX)
+</ADDITIONAL_METADATA>
